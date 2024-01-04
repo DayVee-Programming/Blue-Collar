@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Inter';
+  font-weight: 400;
+  src: url(../fonts/Inter-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 700;
+  src: url(../fonts/Inter-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Mulish';
+  font-weight: 400;
+  src: url(../fonts/Mulish-Regular.ttf) format('truetype');
+}

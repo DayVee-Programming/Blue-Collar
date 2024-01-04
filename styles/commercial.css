@@ -1,0 +1,162 @@
+.commercial {
+  background: #ffb342;
+}
+
+.commercial__wrap {
+  padding: 150px 0 491px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.commercial__desc {
+  max-width: 832px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.commercial__desc-offer {
+  display: flex;
+  gap: 10px;
+  padding: 0 20px;
+  background: #f4f4f4;
+  margin-bottom: 22px;
+}
+
+.commercial__desc-offer-text {
+  color: #1c2752;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+}
+
+.commercial__desc-title {
+  color: #1c2752;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 58.5px;
+  letter-spacing: 0.36px;
+  margin-bottom: 12px;
+}
+
+.commercial__desc-text {
+  color: #1c2752;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  margin-bottom: 37px;
+}
+
+.commercial__desc-cards {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.commercial__desc-cards-card {
+  display: flex;
+  padding: 16px 41px;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid #1c2752;
+  transition: 0.3s;
+}
+
+.commercial__desc-cards-card-text {
+  color: #222;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.36px;
+}
+
+.commercial__desc-cards-card:hover {
+  border: 1px solid #fff;
+  background: #fff;
+}
+
+.commercial__card {
+  display: flex;
+  gap: 75px;
+  padding: 70px 60px;
+  background: #fff;
+  box-shadow: -1px 6px 18px 0px rgba(0, 0, 0, 0.09);
+  position: absolute;
+  bottom: -97px;
+  left: 140px;
+}
+
+.commercial__card-desc {
+  max-width: 549px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+
+.commercial__card-desc-installation {
+  padding: 0 20px;
+  background: #f4f4f4;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.commercial__card-desc-installation-text {
+  color: #1c2752;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+}
+
+.commercial__card-desc-title {
+  color: #1c2752;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 58.5px;
+  letter-spacing: 0.36px;
+  margin-bottom: 12px;
+}
+
+.commercial__card-desc-text {
+  color: #7e7e7e;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+}
+
+.commercial__card-desc-text:first-of-type {
+  margin-bottom: 10px;
+}
+
+.commercial__card-desc-text:last-of-type {
+  margin-bottom: 27px;
+}
+
+.commercial__card-desc-link {
+  color: #1c2752;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.36px;
+  padding: 19px 42px;
+  border: 2px solid #ffb342;
+  background: #ffb342;
+  transition: 0.3s;
+}
+
+.commercial__card-desc-link:hover {
+  color: #fff;
+}
+
+.commercial__card-link {
+  display: flex;
+}

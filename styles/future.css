@@ -1,0 +1,115 @@
+.future__wrap {
+  padding: 140px 0;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.future__pic {
+  display: flex;
+}
+
+.future__desc {
+  max-width: 571px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.future__desc-welcome {
+  padding: 0 20px;
+  background: #f4f4f4;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.future__desc-text {
+  color: #1c2752;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+}
+
+.future__desc-title {
+  color: #1c2752;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 58.5px;
+  letter-spacing: 0.36px;
+  margin-bottom: 12px;
+}
+
+.future__desc-text1 {
+  color: #7e7e7e;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  margin-bottom: 10px;
+}
+
+.future__desc-text2 {
+  color: #7e7e7e;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  margin-bottom: 27px;
+}
+
+.future__desc-card {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.future__desc-card-experience {
+  max-width: 198px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  background: #f4f4f4;
+  padding: 24px 43px 40px 43px;
+  text-align: center;
+}
+
+.future__desc-card-experience-title {
+  color: #ffb342;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 88px;
+  letter-spacing: 0.36px;
+}
+
+.future__desc-card-experience-text {
+  color: #1c2752;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.36px;
+}
+
+.future__desc-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.future__desc-card-list-item-link {
+  color: #7e7e7e;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  transition: 0.3s;
+}
+
+.future__desc-card-list-item-link:hover {
+  color: #ffb342;
+}

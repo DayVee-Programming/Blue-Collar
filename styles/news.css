@@ -1,0 +1,133 @@
+.news__wrap {
+  padding: 150px 5px 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.news__desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news__desc-label {
+  display: flex;
+  gap: 10px;
+  padding: 0 20px;
+  background: #f4f4f4;
+  margin-bottom: 22px;
+}
+
+.news__desc-label-text {
+  color: #1c2752;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+}
+
+.news__desc-title {
+  color: #1c2752;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 58.5px;
+  letter-spacing: 0.36px;
+}
+
+.news__cards {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.news__cards-card {
+  max-width: 580px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 51px;
+}
+
+.news__cards-card-pic {
+  position: relative;
+}
+
+.news__cards-card-pic-cards {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: -28px;
+  left: 109px;
+}
+
+.news__cards-card-pic-cards-card {
+  width: 180px;
+  height: 62px;
+  background: #ffc368;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.news__cards-card-pic-cards-card:last-of-type {
+  background: #ffb342;
+}
+
+.news__cards-card-pic-cards-card-text {
+  color: #1c2752;
+  font-size: 15px;
+  line-height: 22.5px;
+  letter-spacing: 0.3px;
+}
+
+.news__cards-card-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.news__cards-card-desc-title {
+  color: #1c2752;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+  letter-spacing: 0.36px;
+  margin-bottom: 16px;
+}
+
+.news__cards-card-desc-text {
+  color: #7e7e7e;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  margin-bottom: 17px;
+}
+
+.news__cards-card-desc-view {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.news__cards-card-desc-view-text {
+  color: #1c2752;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+  transition: 0.3s;
+}
+
+.news__cards-card:hover .news__cards-card-desc-view-text {
+  color: #ffb342;
+}
+
+.news__cards-card-desc-view-icon path {
+  transition: 0.3s;
+}
+
+.news__cards-card:hover .news__cards-card-desc-view-icon path {
+  stroke: #ffb342;
+}

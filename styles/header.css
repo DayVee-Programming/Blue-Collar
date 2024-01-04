@@ -1,0 +1,138 @@
+.header__opening {
+  background: #f2f2f2;
+}
+
+.header__opening-wrap {
+  padding: 21px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__opening-text {
+  color: #1c2752;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+}
+
+.header__opening-list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header__opening-list-item-link {
+  display: flex;
+}
+
+.header__main-wrap {
+  padding: 30px 0 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.header__main-link {
+  display: flex;
+}
+
+.header__main-contact {
+  display: flex;
+  gap: 65px;
+  align-items: center;
+}
+
+.header__main-contact-card {
+  max-width: 258px;
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.header__main-contact-card-pic {
+  width: 68px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background: #ffb342;
+}
+
+.header__main-contact-card-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__main-contact-card-desc-title {
+  color: #1c2752;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.36px;
+  transition: 0.3s;
+}
+
+.header__main-contact-card:hover .header__main-contact-card-desc-title {
+  color: #ffb342;  
+}
+
+.header__main-contact-card-desc-text {
+  color: #7e7e7e;
+  font-size: 17px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+}
+
+.header__main-menu {
+  width: 100%;
+  background: #ffb342;
+  position: absolute;
+  bottom: -58px;
+}
+
+.header__main-menu-wrap {
+  padding: 10px 10px 10px 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__main-menu-list {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.header__main-menu-list-item-link {
+  color: #222;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: 0.36px;
+  transition: 0.3s;
+}
+
+.header__main-menu-list-item-link:hover {
+  color: #fff;
+}
+
+.header__main-menu-link {
+  color: #f4f4f4;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.36px;
+  padding: 19px 42px;
+  border: 2px solid #1c2752;
+  background: #1c2752;
+  transition: 0.3s;
+  border: none;
+}
+
+.header__main-menu-link:hover {
+  background: #f4f4f4;
+  color: #1c2752;
+}
