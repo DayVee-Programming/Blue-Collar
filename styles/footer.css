@@ -3,7 +3,7 @@
 }
 
 .footer__wrap {
-  padding: 59px 0 87px;
+  padding: 59px 15px 87px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -16,6 +16,8 @@
   align-items: center;
   border-bottom: 1px solid #4b557d;
   padding-bottom: 27px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer__contact-logo {
@@ -24,7 +26,10 @@
 
 .footer__contact-cards {
   display: flex;
+  gap: 15px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center
 }
 
 .footer__contact-cards-card {
@@ -80,9 +85,12 @@
 .footer__main {
   width: 100%;
   display: flex;
+  gap: 30px 0;
   align-items: center;
   border-bottom: 1px solid #4B557D;
   position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer__main-desc {
@@ -105,6 +113,8 @@
   display: flex;
   gap: 15px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer__main-desc-socials-pic {
@@ -173,4 +183,32 @@
 
 .footer__main-line_right {
   right: 280px;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer__main-line_left {
+    display: none;
+  }
+
+  .footer__main-line_right {
+    display: none;
+  }
+
+  .footer__main-list:first-of-type {
+    padding-right: 80px;
+  }
+
+  .footer__main-list:nth-of-type(2) {
+    padding-right: 50px;
+  }
+
+  .footer__main-desc {
+    padding: 50px 50px 0 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .footer__main-desc {
+    padding: 50px 0 0 0;
+  }
 }

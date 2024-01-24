@@ -5,7 +5,8 @@
 .subscribe__wrap {
   display: flex;
   justify-content: space-between;
-  padding: 141px 0 52px;
+  gap: 15px;
+  padding: 141px 15px 52px;
 }
 
 .subscribe__desc {
@@ -33,13 +34,15 @@
 }
 
 .subscribe__form {
+  max-width: 570px;
+  width: 100%;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .subscribe__form-input {
-  max-width: 570px;
-  width: 100%;
   border: 2px solid #fff;
   color: #fff;
   font-size: 17px;
@@ -63,4 +66,11 @@
   letter-spacing: 0.36px;
   padding: 20px 48px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .subscribe__wrap {
+    flex-direction: column;
+    align-items: center;
+  }
 }

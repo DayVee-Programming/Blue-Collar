@@ -32,18 +32,27 @@
   color: #1c2752;
   font-family: 'Mulish', sans-serif;
   font-weight: 400;
-  font-size: 45px;
-  line-height: 58.5px;
+  font-size: clamp(1.875rem, 1.614rem + 1.3vw, 2.813rem);
+  line-height: clamp(2.5rem, 2.178rem + 1.61vw, 3.656rem);
   letter-spacing: 0.36px;
+  text-align: center;
 }
 
 .clients__imgs {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  gap: 30px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .clients__imgs-link:hover .clients__imgs-link-icon path {
   fill: #FFB342;
+}
+
+@media screen and (max-width: 992px) {
+  .clients__imgs {
+    flex-direction: column;
+  }
 }

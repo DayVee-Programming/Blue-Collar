@@ -1,7 +1,9 @@
 .appointment__wrap {
-  padding: 150px 0 102px;
+  padding: 150px 15px 102px;
   display: flex;
   gap: 45px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .appointment__main {
@@ -32,8 +34,8 @@
   color: #1c2752;
   font-family: "Mulish", sans-serif;
   font-weight: 400;
-  font-size: 45px;
-  line-height: 58.5px;
+  font-size: clamp(1.875rem, 1.614rem + 1.3vw, 2.813rem);
+  line-height: clamp(2.5rem, 2.178rem + 1.61vw, 3.656rem);
   letter-spacing: 0.36px;
   margin-bottom: 41px;
 }
@@ -237,13 +239,14 @@
   color: #1c2752;
   font-family: "Mulish", sans-serif;
   font-weight: 400;
-  font-size: 45px;
-  line-height: 58.5px;
+  font-size: clamp(1.875rem, 1.614rem + 1.3vw, 2.813rem);
+  line-height: clamp(2.5rem, 2.178rem + 1.61vw, 3.656rem);
   letter-spacing: 0.36px;
   margin-bottom: 39px;
 }
 
 .appointment__side-form {
+  width: 100%;
   background: #f4f4f4;
   padding: 70px 40px 75px;
   display: flex;
@@ -290,4 +293,22 @@
 
 .appointment__side-form-btn:hover {
   color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .appointment__main-customer {
+    padding: 20px;
+  }
+
+  .appointment__main-contact-call-text {
+    font-size: 20px;
+  }
+
+  .appointment__main-contact {
+    padding: 20px;
+  }
+
+  .appointment__main-contact-call {
+    gap: 7px;
+  }
 }

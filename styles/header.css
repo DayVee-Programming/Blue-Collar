@@ -3,8 +3,9 @@
 }
 
 .header__opening-wrap {
-  padding: 21px 0;
+  padding: 21px 15px;
   display: flex;
+  gap: 15px;
   justify-content: space-between;
   align-items: center;
 }
@@ -27,8 +28,9 @@
 }
 
 .header__main-wrap {
-  padding: 30px 0 60px;
+  padding: 30px 15px 60px;
   display: flex;
+  gap: 30px;
   justify-content: space-between;
   align-items: center;
   position: relative;
@@ -40,8 +42,10 @@
 
 .header__main-contact {
   display: flex;
-  gap: 65px;
+  gap: 15px 65px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .header__main-contact-card {
@@ -98,6 +102,7 @@
 .header__main-menu-wrap {
   padding: 10px 10px 10px 45px;
   display: flex;
+  gap: 15px;
   justify-content: space-between;
   align-items: center;
 }
@@ -106,6 +111,8 @@
   display: flex;
   gap: 50px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .header__main-menu-list-item-link {
@@ -135,4 +142,40 @@
 .header__main-menu-link:hover {
   background: #f4f4f4;
   color: #1c2752;
+}
+
+@media screen and (max-width: 992px) {
+  .header__main-wrap {
+    flex-direction: column;
+  }
+
+  .header__main-menu-wrap {
+    flex-direction: column;
+  }
+
+  .header__main-menu {
+    bottom: -100px;
+  }
+
+  .header__main-menu-wrap {
+    padding: 10px 10px 10px 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__main-menu-list {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header__opening-wrap {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 423px) {
+  .header__main-menu {
+    bottom: -140px;
+  }
 }

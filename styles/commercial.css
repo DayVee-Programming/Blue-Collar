@@ -3,7 +3,7 @@
 }
 
 .commercial__wrap {
-  padding: 150px 0 491px;
+  padding: 150px 15px 491px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,8 +39,8 @@
   color: #1c2752;
   font-family: "Mulish", sans-serif;
   font-weight: 400;
-  font-size: 45px;
-  line-height: 58.5px;
+  font-size: clamp(1.875rem, 1.614rem + 1.3vw, 2.813rem);
+  line-height: clamp(2.5rem, 2.178rem + 1.61vw, 3.656rem);
   letter-spacing: 0.36px;
   margin-bottom: 12px;
 }
@@ -57,6 +57,8 @@
   display: flex;
   gap: 30px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .commercial__desc-cards-card {
@@ -87,8 +89,9 @@
   background: #fff;
   box-shadow: -1px 6px 18px 0px rgba(0, 0, 0, 0.09);
   position: absolute;
-  bottom: -97px;
-  left: 140px;
+  /* bottom: clamp(-17.188rem, -20.283rem + 15.48vw, -6.063rem); */
+  bottom: clamp(-22.5rem, -34.241rem + 58.71vw, -6.063rem);
+  transform: translateX(0);
 }
 
 .commercial__card-desc {
@@ -121,8 +124,8 @@
   color: #1c2752;
   font-family: "Mulish", sans-serif;
   font-weight: 400;
-  font-size: 45px;
-  line-height: 58.5px;
+  font-size: clamp(1.875rem, 1.614rem + 1.3vw, 2.813rem);
+  line-height: clamp(2.5rem, 2.178rem + 1.61vw, 3.656rem);
   letter-spacing: 0.36px;
   margin-bottom: 12px;
 }
@@ -159,4 +162,10 @@
 
 .commercial__card-link {
   display: flex;
+}
+
+@media screen and (max-width: 992px) {
+  .commercial__card-link {
+    display: none;
+  }
 }

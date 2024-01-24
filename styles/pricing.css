@@ -3,17 +3,18 @@
 }
 
 .pricing__wrap {
-  padding: 150px 0 135px;
+  padding: 150px 15px 135px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .pricing__desc {
   display: flex;
-  gap: 111px;
+  gap: 50px 111px;
   align-items: center;
   margin-bottom: 58px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .pricing__desc-main {
@@ -44,8 +45,8 @@
   color: #1c2752;
   font-family: "Mulish", sans-serif;
   font-weight: 400;
-  font-size: 45px;
-  line-height: 58.5px;
+  font-size: clamp(1.875rem, 1.614rem + 1.3vw, 2.813rem);
+  line-height: clamp(2.5rem, 2.178rem + 1.61vw, 3.656rem);
   letter-spacing: 0.36px;
 }
 
@@ -63,6 +64,8 @@
   gap: 30px;
   align-items: center;
   margin-bottom: 61px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .pricing__cards-card {
@@ -178,6 +181,8 @@
   display: flex;
   gap: 67px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .pricing__info-card {
@@ -219,4 +224,14 @@
   font-size: 17px;
   line-height: 27px;
   letter-spacing: 0.36px;
+}
+
+@media screen and (max-width: 480px) {
+  .pricing__cards-card {
+    padding: 20px;
+  }
+
+  .pricing__cards-card-desc-main-title {
+    font-size: 20px;
+  }
 }
