@@ -164,6 +164,11 @@
   display: flex;
 }
 
+.commercial__card-link img {
+  max-width: 416px;
+  max-height: 366px;
+}
+
 @media screen and (max-width: 992px) {
   .commercial__card-link {
     display: none;

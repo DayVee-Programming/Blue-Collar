@@ -69,8 +69,8 @@
 }
 
 .services__cards-card-img {
-  width: 48px;
-  height: 48px;
+  max-width: 48px;
+  max-height: 48px;
   margin-bottom: 20px;
 }
 

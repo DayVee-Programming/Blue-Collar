@@ -153,6 +153,11 @@
   align-items: center;
 }
 
+.pricing__cards-card-list-item img {
+  max-width: 19px;
+  max-height: 19px;
+}
+
 .pricing__cards-card-list-item-link {
   color: #7e7e7e;
   font-size: 17px;
@@ -193,8 +198,8 @@
 }
 
 .pricing__info-card-img {
-  width: 32px;
-  height: 32px;
+  max-width: 32px;
+  max-height: 32px;
 }
 
 .pricing__info-card-desc {
