@@ -12,8 +12,7 @@
 }
 
 .future__desc {
-  max-width: 571px;
-  width: 100%;
+  width: min(100%, 571px);
   display: flex;
   flex-direction: column;
   align-items: flex-start;

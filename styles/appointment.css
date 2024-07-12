@@ -7,8 +7,7 @@
 }
 
 .appointment__main {
-  max-width: 591px;
-  width: 100%;
+  width: min(100%, 591px);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -217,8 +216,7 @@
 }
 
 .appointment__side {
-  max-width: 564px;
-  width: 100%;
+  width: min(100%, 564px);
   display: flex;
   flex-direction: column;
   align-items: flex-start;

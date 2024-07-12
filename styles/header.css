@@ -40,7 +40,7 @@
   display: flex;
 }
 
-.header__main-contact {
+.header__main-address {
   display: flex;
   gap: 15px 65px;
   align-items: center;
@@ -48,15 +48,14 @@
   justify-content: center;
 }
 
-.header__main-contact-card {
-  max-width: 258px;
-  width: 100%;
+.header__main-address-card {
+  width: min(100%, 258px);
   display: flex;
   gap: 15px;
   align-items: center;
 }
 
-.header__main-contact-card-pic {
+.header__main-address-card-pic {
   width: 68px;
   height: 68px;
   display: flex;
@@ -66,12 +65,12 @@
   background: #ffb342;
 }
 
-.header__main-contact-card-desc {
+.header__main-address-card-desc {
   display: flex;
   flex-direction: column;
 }
 
-.header__main-contact-card-desc-title {
+.header__main-address-card-desc-title {
   color: #1c2752;
   font-family: "Mulish", sans-serif;
   font-weight: 400;
@@ -81,11 +80,11 @@
   transition: 0.3s;
 }
 
-.header__main-contact-card:hover .header__main-contact-card-desc-title {
+.header__main-address-card:hover .header__main-address-card-desc-title {
   color: #ffb342;  
 }
 
-.header__main-contact-card-desc-text {
+.header__main-address-card-desc-text {
   color: #7e7e7e;
   font-size: 17px;
   line-height: 27px;
@@ -93,7 +92,7 @@
 }
 
 .header__main-menu {
-  width: 100%;
+  width: 97%;
   background: #ffb342;
   position: absolute;
   bottom: -58px;

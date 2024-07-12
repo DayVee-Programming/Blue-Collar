@@ -52,8 +52,7 @@
 }
 
 .projects__cards-card {
-  max-width: 320px;
-  width: 100%;
+  width: min(100%, 320px);
   padding: 21px 21px 26px 21px;
   display: flex;
   flex-direction: column;

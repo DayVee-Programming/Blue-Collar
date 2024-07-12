@@ -18,8 +18,7 @@
 }
 
 .pricing__desc-main {
-  max-width: 497px;
-  width: 100%;
+  width: min(100%, 497px);
   display: flex;
   flex-direction: column;
   gap: 23px;
@@ -51,8 +50,7 @@
 }
 
 .pricing__desc-text {
-  max-width: 585px;
-  width: 100%;
+  width: min(100%, 585px);
   color: #7e7e7e;
   font-size: 18px;
   line-height: 27px;
@@ -69,8 +67,7 @@
 }
 
 .pricing__cards-card {
-  max-width: 380px;
-  width: 100%;
+  width: min(100%, 380px);
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -191,8 +188,7 @@
 }
 
 .pricing__info-card {
-  max-width: 548px;
-  width: 100%;
+  width: min(100%, 548px);
   display: flex;
   gap: 15px;
 }
@@ -203,8 +199,7 @@
 }
 
 .pricing__info-card-desc {
-  max-width: 501px;
-  width: 100%;
+  width: min(100%, 501px);
   display: flex;
   flex-direction: column;
   gap: 9px;

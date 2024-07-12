@@ -11,8 +11,7 @@
 }
 
 .commercial__desc {
-  max-width: 832px;
-  width: 100%;
+  width: min(100%, 832px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -84,19 +83,19 @@
 
 .commercial__card {
   display: flex;
-  gap: 75px;
+  justify-content: space-between;
+  gap: 15px;
   padding: 70px 60px;
+  margin-inline: 140px;
   background: #fff;
   box-shadow: -1px 6px 18px 0px rgba(0, 0, 0, 0.09);
   position: absolute;
-  /* bottom: clamp(-17.188rem, -20.283rem + 15.48vw, -6.063rem); */
   bottom: clamp(-22.5rem, -34.241rem + 58.71vw, -6.063rem);
   transform: translateX(0);
 }
 
 .commercial__card-desc {
-  max-width: 549px;
-  width: 100%;
+  width: min(100%, 549px);
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -169,7 +168,7 @@
   max-height: 366px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
   .commercial__card-link {
     display: none;
   }

@@ -5,8 +5,7 @@
 }
 
 .choose__stats {
-  max-width: 720px;
-  width: 100%;
+  width: min(100%, 720px);
   background: url(../images/choose.jpg) center/cover no-repeat;
   display: flex;
   justify-content: center;
@@ -15,8 +14,7 @@
 }
 
 .choose__stats-cards {
-  max-width: 560px;
-  width: 100%;
+  width: min(100%, 560px);
   background: rgba(28, 39, 82, 0.86);
   padding: 100px 80px 123px;
   display: flex;
@@ -44,8 +42,7 @@
 }
 
 .choose__stats-cards-card-title {
-  max-width: 290px;
-  width: 100%;
+  width: min(100%, 290px);
   color: #fff;
   font-family: "Mulish", sans-serif;
   font-weight: 400;
@@ -62,8 +59,7 @@
 }
 
 .choose__desc {
-  max-width: 590px;
-  width: 100%;
+  width: min(100%, 590px);
   display: flex;
   flex-direction: column;
   align-items: flex-start;

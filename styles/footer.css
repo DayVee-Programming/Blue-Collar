@@ -24,7 +24,7 @@
   display: flex;
 }
 
-.footer__contact-cards {
+.footer__contact-address {
   display: flex;
   gap: 15px;
   align-items: center;
@@ -32,13 +32,13 @@
   justify-content: center
 }
 
-.footer__contact-cards-card {
+.footer__contact-address-card {
   display: flex;
   gap: 15px;
   align-items: center;
 }
 
-.footer__contact-cards-card-pic {
+.footer__contact-address-card-pic {
   width: 68px;
   height: 68px;
   display: flex;
@@ -48,20 +48,20 @@
   background: #ffb342;
 }
 
-.footer__contact-cards-card-desc {
+.footer__contact-address-card-desc {
   display: flex;
   flex-direction: column;
 }
 
-.footer__contact-cards-card-desc:first-of-type {
+.footer__contact-address-card-desc:first-of-type {
   padding-right: 46px;
 }
 
-.footer__contact-cards-card-desc:nth-of-type(2) {
+.footer__contact-address-card-desc:nth-of-type(2) {
   padding-right: 46px;
 }
 
-.footer__contact-cards-card-desc-title {
+.footer__contact-address-card-desc-title {
   color: #fff;
   font-family: "Mulish", sans-serif;
   font-weight: 400;
@@ -71,11 +71,11 @@
   transition: 0.3s;
 }
 
-.footer__contact-cards-card:hover .footer__contact-cards-card-desc-title {
+.footer__contact-address-card:hover .footer__contact-address-card-desc-title {
   color: #ffb342;
 }
 
-.footer__contact-cards-card-desc-text {
+.footer__contact-address-card-desc-text {
   color: #fff;
   font-size: 17px;
   line-height: 27px;
@@ -94,8 +94,7 @@
 }
 
 .footer__main-desc {
-  max-width: 522px;
-  width: 100%;
+  width: min(100%, 522px);
   display: flex;
   flex-direction: column;
   gap: 52px;

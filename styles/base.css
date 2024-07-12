@@ -7,11 +7,19 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
 }
 
-h1, h2, h3, h4, h5, h6, input, button, textarea {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+button,
+textarea {
   font-family: inherit;
   font-weight: inherit;
 }
@@ -21,18 +29,26 @@ img {
   height: 100%;
 }
 
-.container {
-  max-width: 1230px;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
+a {
+  cursor: pointer;
 }
 
-.page-container {
-  max-width: 1470px;
-  width: 100%;
+address {
+  font-style: normal;
+}
+
+/* original container for a full webpage */
+.full-container {
+  width: min(100%, 1470px);
   height: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
+  margin-inline: auto;
+  padding-inline: 15px;
+}
+
+/* container for a webpage with margin of 120px from left and right compared to original container */
+.container {
+  width: min(100%, 1230px);
+  height: 100%;
+  margin-inline: auto;
+  padding-inline: 15px;
 }

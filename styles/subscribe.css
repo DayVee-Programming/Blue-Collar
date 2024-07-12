@@ -10,8 +10,7 @@
 }
 
 .subscribe__desc {
-  max-width: 410px;
-  width: 100%;
+  width: min(100%, 410px);
   display: flex;
   flex-direction: column;
   gap: 9px;
@@ -34,8 +33,7 @@
 }
 
 .subscribe__form {
-  max-width: 570px;
-  width: 100%;
+  width: min(100%, 570px);
   display: flex;
   align-items: center;
   flex-wrap: wrap;
