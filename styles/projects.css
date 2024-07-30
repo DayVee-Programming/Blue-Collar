@@ -1,108 +1,112 @@
-.projects {
-  background: #1c2752;
-}
+  .projects {
+    background: #1c2752;
+  }
 
-.projects__wrap {
-  padding: 150px 35px 160px;
-  display: flex;
-  flex-direction: column;
-  gap: 49px;
-  align-items: center;
-}
+  .projects__wrap {
+    padding: 150px 35px 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+    align-items: center;
+  }
 
-.projects__desc {
-  display: flex;
-  flex-direction: column;
-  gap: 22px;
-  align-items: center;
-  text-align: center;
-}
+  .projects__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    align-items: center;
+    text-align: center;
+  }
 
-.projects__desc-label {
-  display: flex;
-  gap: 10px;
-  padding: 0 20px;
-  background: #f4f4f4;
-  margin-bottom: 22px;
-}
+  .projects__desc-label {
+    display: flex;
+    gap: 10px;
+    padding: 0 20px;
+    background: #f4f4f4;
+    margin-bottom: 22px;
+  }
 
-.projects__desc-label-text {
-  color: #1c2752;
-  font-size: 18px;
-  line-height: 27px;
-  letter-spacing: 0.36px;
-  text-transform: capitalize;
-}
+  .projects__desc-label-text {
+    color: #1c2752;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+  }
 
-.projects__desc-title {
-  color: #fff;
-  font-family: "Mulish", sans-serif;
-  font-weight: 400;
-  font-size: clamp(1.875rem, 1.614rem + 1.3vw, 2.813rem);
-  line-height: clamp(2.5rem, 2.178rem + 1.61vw, 3.656rem);
-  letter-spacing: 0.36px;
-}
+  .projects__desc-title {
+    color: #fff;
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: clamp(1.875rem, 1.614rem + 1.3vw, 2.813rem);
+    line-height: clamp(2.5rem, 2.178rem + 1.61vw, 3.656rem);
+    letter-spacing: 0.36px;
+  }
 
-.projects__cards {
-  display: flex;
-  gap: 30px;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+  .projects__cards {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-.projects__cards-card {
-  width: min(100%, 320px);
-  padding: 21px 21px 26px 21px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 27px;
-  background: #fff;
-  border: 1px solid transparent;
-  transition: 0.3s;
-}
+  .projects__cards-card {
+    width: min(100%, 320px);
+    padding: 21px 21px 26px 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.3s;
+  }
 
-.projects__cards-card:hover {
-  border: 1px solid #d2d2d2;
-}
+  .projects__cards-card:hover {
+    border: 1px solid #d2d2d2;
+  }
 
-.projects__cards-card-desc {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  align-items: center;
-  transition: 0.3s;
-}
+  .projects__cards-card-desc {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    transition: 0.3s;
+  }
 
-.projects__cards-card:hover .projects__cards-card-desc {
-  padding: 0 25px;
-}
+  .projects__cards-card-desc4 {
+    transition: 0.3s;
+  }
 
-.projects__cards-card:hover .projects__cards-card-desc4 {
-  padding: 0 60px;
-}
+  .projects__cards-card:hover .projects__cards-card-desc {
+    padding: 0 25px;
+  }
 
-.projects__cards-card-desc-title {
-  color: #1c2752;
-  font-family: "Mulish", sans-serif;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 37.5px;
-  letter-spacing: 0.36px;
-  text-transform: capitalize;
-  transition: 0.3s;
-}
+  .projects__cards-card:hover .projects__cards-card-desc4 {
+    padding: 0 60px;
+  }
 
-.projects__cards-card:hover .projects__cards-card-desc-title {
-  color: #FFB342;
-}
+  .projects__cards-card-desc-title {
+    color: #1c2752;
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 37.5px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    transition: 0.3s;
+  }
 
-.projects__cards-card-desc-text {
-  color: #7e7e7e;
-  font-size: 17px;
-  line-height: 27px;
-  letter-spacing: 0.36px;
-}
+  .projects__cards-card:hover .projects__cards-card-desc-title {
+    color: #FFB342;
+  }
+
+  .projects__cards-card-desc-text {
+    color: #7e7e7e;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+  }
 

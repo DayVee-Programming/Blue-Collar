@@ -64,6 +64,12 @@
   letter-spacing: 0.36px;
   padding: 20px 48px;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe__form-btn:hover {
+  background: #1c2752;
+  color: #fff;
 }
 
 @media screen and (max-width: 992px) {

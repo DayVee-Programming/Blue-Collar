@@ -54,10 +54,6 @@
   transition: 0.3s;
 }
 
-.choose__stats-cards-card:hover .choose__stats-cards-card-title {
-  color: #ffb342;
-}
-
 .choose__desc {
   width: min(100%, 590px);
   display: flex;

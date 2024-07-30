@@ -4,13 +4,13 @@ Bluecollar Electrical services are trusted and reliable electricians who serve c
 
 ## Screenshots from the project
 
-<img src="/images/screenshot1.jpg" />
+<img src="/images/screenshot1.png" />
 <hr>
-<img src="/images/screenshot2.jpg" />
+<img src="/images/screenshot2.png" />
 <hr>
-<img src="/images/screenshot3.jpg" />
+<img src="/images/screenshot3.png" />
 <hr>
-<img src="/images/screenshot4.jpg" />
+<img src="/images/screenshot4.png" />
 
 ## How to run the project 
 

@@ -25,6 +25,13 @@
 
 .header__opening-list-item-link {
   display: flex;
+  padding-bottom: 5px;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+
+.header__opening-list-item-link:hover {
+  border-bottom: 1px solid black;
 }
 
 .header__main-wrap {
