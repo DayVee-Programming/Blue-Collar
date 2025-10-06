@@ -14,8 +14,9 @@ Bluecollar Electrical services are trusted and reliable electricians who serve c
 
 ## How to run the project 
 
-1. Clone this project by using ```git clone https://github.com/DayVee-Programming/Blue-Collar.git``` on your command line or you can download it by pressing on "Code" button --> "Download ZIP"  
-2. Open the cloned project folder and open index.html file with your browser 
+1. Clone this project by using ```git clone https://github.com/DayVee-Programming/Blue-Collar.git``` on your command line or you can download it by pressing on "Code" button --> "Download ZIP"
+2. Open the cloned project folder with your editor and type `npm run dev` on your command line
+3. Open it on your local server
 
 ## Find a bug?
 
